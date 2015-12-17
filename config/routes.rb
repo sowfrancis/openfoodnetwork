@@ -22,7 +22,7 @@ Openfoodnetwork::Application.routes.draw do
     get :order_cycle
   end
 
-  resources :producers, only: [:index] do
+  resources :producers, only: [:index, :show] do
     collection do
       get :signup
     end

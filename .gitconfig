@@ -1,0 +1,7 @@
+[user]
+	name = sowfrancis
+	email = sow.francis@gmail.com
+
+	[alias]
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev
+  s = status -sb 
